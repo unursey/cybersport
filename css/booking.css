@@ -1,0 +1,86 @@
+.booking {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  background-color: #EBECF1;
+  color: #1A1A1A;
+}
+
+.booking__title {
+  font-size: 46px;
+  font-weight: 800;
+  margin-bottom: 50px;
+}
+
+.booking__fieldset_user-info {
+  margin-bottom: 50px;
+}
+
+.booking__legend {
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 1.4;
+  margin-bottom: 20px;
+}
+
+.booking__input-group {
+  display: flex;
+  gap: 8px;
+}
+
+.booking__input {
+  display: block;
+  max-width: 380px;
+  height: 44px;
+  width: 100%;
+  border: none;
+  border-radius: 8px;
+  background-color: #FFF;
+  padding: 16px;
+}
+
+.booking__fieldset_games {
+  margin-bottom: 122px;
+}
+
+.booking__comand-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.booking__game {
+  display: flex;
+  align-items: center;
+
+}
+
+.booking__select {
+  border: none;
+  border-radius: 8px;
+  background-color: #FFF;
+  padding: 10px 16px;
+}
+
+.booking__select_game {
+  margin-right: 8px;
+}
+
+.booking__select_time {
+  margin-right: 18px;
+}
+
+.booking__hall {
+}
+.booking__button {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.4;
+  color: #1A1A1A;
+  padding: 16px 36px;
+  border-radius: 36px;
+  background-color: #ffc219;
+}
+.booking__button_submit {
+}
