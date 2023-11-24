@@ -65,5 +65,54 @@ fieldset {
 .container {
   max-width: 1440px;
   margin: 0 auto;
-  padding: 50px;
+  padding: 0 80px;
+}
+
+.ts-dropdown, .ts-control, .ts-control input {
+  font-size: 18px;
+  line-height: 1.4;
+  border-radius: 8px;
+  color: #1A1A1A;
+  border: none;
+  padding: 10px 16px 8px;
+}
+
+.dropdown-active .ts-control {
+  border-radius: 8px;
+}
+
+.ts-wrapper.single .ts-control {
+  background: #FFF;
+}
+
+.ts-dropdown .active {
+  background-color: transparent;
+}
+
+.ts-wrapper.single .ts-control::after {
+  border-color: #1A1A1A transparent transparent transparent
+}
+
+.ts-wrapper.single.dropdown-active .ts-control::after {
+  border-color: transparent transparent #1A1A1A transparent
+}
+
+@media (max-width: 1200px) {
+  .container {
+    max-width: 1024px;
+    padding: 0 60px;
+  }
+}
+
+@media (max-width: 900px) {
+  .container {
+    max-width: 768px;
+  }
+}
+
+@media (max-width: 680px) {
+  .container {
+    max-width: 680px;
+    padding: 0 16px;
+  }
 }
