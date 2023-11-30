@@ -6,6 +6,18 @@
   background-color: #EBECF1;
   color: #1A1A1A;
   padding: 80px 0;
+  transition: opacity .5s, visibility .5s;
+  opacity: 1;
+  visibility: visible;
+}
+
+.booking_hidden {
+  display: none;
+  opacity: 0;
+  visibility: hidden;
+  position: absolute;
+  width: 100%;
+  z-index: -1;
 }
 
 .booking__title {

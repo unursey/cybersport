@@ -9,6 +9,17 @@
   background-position: center;
   color: #FFF;
   z-index: 1;
+  transition: opacity .5s, visibility .5s;
+  opacity: 1;
+  visibility: visible;
+}
+
+.event_hidden {
+  opacity: 0;
+  visibility: hidden;
+  position: absolute;
+  width: 100%;
+  z-index: -1;
 }
 
 .event::before {
@@ -64,6 +75,14 @@
 .event__button {
   font-size: 24px;
   line-height: 1.4;
+  transition: opacity .5s, visibility .5s;
+  opacity: 1;
+  visibility: visible;
+}
+
+.event__button_hidden {
+  visibility: hidden;
+  opacity: 0;
 }
 
 .event__button_reserve {

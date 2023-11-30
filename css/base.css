@@ -97,6 +97,10 @@ fieldset {
   border-color: transparent transparent #1A1A1A transparent
 }
 
+.just-validate-error-label {
+  display: none;
+}
+
 @media (max-width: 1200px) {
   .container {
     max-width: 1024px;
